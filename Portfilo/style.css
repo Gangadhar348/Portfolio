@@ -50,7 +50,7 @@ body {
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background: url(images/Purple\ Illustrated\ Mountain\ Desktop\ Wallpaper.png);
+  background: url(images/ChatGPT\ Image\ May\ 29\,\ 2026\,\ 06_21_55\ PM.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -146,21 +146,17 @@ body {
   height: 700px;
 }
 
-/* .about-img {
-  padding: 20%;
-  left: 30px;
-  max-width: 630px;
-  height: 100px;
-  width: 100%;
-  border-radius: 8px;
-} */
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .about-img img {
-  padding: 20%;
-  left: 30px;
-  max-width: 630px;
-  height: 100px;
   width: 100%;
-  border-radius: 8px;
+  max-width: 450px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .about-text h2 {
   font-size: 60px;
@@ -203,7 +199,7 @@ body {
 }
 .services-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   margin-top: 50px;
 }
@@ -211,7 +207,7 @@ body {
   background-color: transparent;
   padding: 40px;
   font-size: 13px;
-  font-weight: 13px;
+  font-weight: 400;
   border-right: 10px;
   border-radius: 20px;
   transition:
@@ -552,7 +548,7 @@ section {
   color: #ff004f;
   margin-top: 20px;
   font-size: 20px;
-  background: #fff;
+  background: #000;
   width: 60px;
   height: 60px;
   display: flex;
