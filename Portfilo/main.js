@@ -4,7 +4,7 @@ var typed = new Typed(".text", {
     "Python Developer",
     "Full Stack Developer",
     "Web Developer",
-  ], // ✅ lowercase 's', fixed "Forntend"
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
